@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Davin Phase 2</title>
+  <link href="https://fonts.googleapis.com/css?family=Creepster|Text+Me+One" rel="stylesheet">
+  <link href="davincss.css" rel="stylesheet">
+  <script src="davinjs.js" async></script>    <!--importing js and css files-->
+  <script src="animation.js" defer></script>
+  <script src="WeatherAPI.js" defer></script>
+  <!--<script src="http://api.openweathermap.org/data/2.5/weather?q=&appid={your api key}" async defer></script>-->
+</head>
+
+<body>
+  
+
+  <p id="main1">
+    Davinder's Travel List      <!--main heading-->
+  </p>
+<section id="section1">
+  <h1> Web Animation API:-</h1>
+  
+  <button id="playbutton" type="button">Play</button>     <!--creating play button-->
+  <img id="imageanimate1" src="images/dot1.png">          <!-- importing images-->
+  <img id="imageanimate2" src="images/dot2.png">
+  <img id="imageanimate3" src="images/dot3.png">
+  <img id="imageanimate4" src="images/dot4.png">
+  <button id="pausebutton" type="button">Pause</button>   <!--creating pause button-->
+</section>
+
+<section id="section2">
+    <h1 id="head1"> Third Party's Weather API:-</h1>     <!-- Extra heading for more details-->
+  <h2 id="adddiv">**Check Weather Before Travelling**</h2>
+
+  <input type="text" class="input1" id="input1" placeholder="Enter City name to check weather">      <!-- textfield to get user input-->
+  <button id="submit1" type="button">Submit</button>    <!--button to submit value-->
+  
+    <h1 id="cityname"></h1>
+    <h3 id="temp"></h3>
+    <h3 id="info"></h3>
+ 
+</section>
+<section id="section3">
+  <h2> Enter the places you want to travel</h2>     <!-- second heading-->
+  <input type="text" id='finput'>       <!--input box for user input-->
+  <button type="button" id="fsubmit">Submit</button>    <!--button to submit value-->
+  <h1 id="items"> Davin's Travel Places list: </h1>     <!--list heading-->
+</section>
+
+</body>
+
+</html>
